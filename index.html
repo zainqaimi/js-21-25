@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zain ul abdin(116841)</title>
+</head>
+<body>
+    
+
+
+    <script>
+var name =prompt("Enter Yous Frist Name:");
+var lastName =prompt("Enter Yous Last Name:");
+var fullName = name + lastName;
+document.write("<h1>Q:1</br>"+"Full Name Is :"+" "+fullName)
+var model =prompt("Enter Your Favorite Mobile");
+document.write("<h1>Q:2</br>"+"Your Favorite Mobile Model Is :"+" "+ model+"</br>"+"lenght of string is: "+ model.length)
+var index_of = "Pakistani" ;
+document.write("<h1>Q:3</br>"+"String Is :"+ " " + " pakistan"+"</br>"+"index of 'n' is:"+" "+ index_of.indexOf("n"));
+var lindex_of = "Hello World" ;
+document.write("<h1>Q:4</br>"+"String Is :"+ " " + lindex_of +"</br>"+"Last index of 'l' is:"+" "+ lindex_of.lastIndexOf("l"));
+var char = "Pakistani" ;
+document.write("<h1>Q:5</br>"+"String Is :"+ " " + char +"</br>"+"character index of '3' is:"+" "+ char.charAt(3));
+var city = 'hyderabad';
+document.write("<h1>Q:7</br>"+"String Is :"+ " " + city +"</br>"+"After replacement is:"+" "+ city.replace("hyder","Islam"));
+var message = "Ali and Sami are best friends. They play cricket and football together.";
+document.write("<h1>Q:8</br>"+"String Is :"+ " " + message +"</br>"+"After replacement is:"+" "+ message.replaceAll("and","&"));
+var value = "472" ;
+document.write("<h1>Q:9</br>"+"value Is :"+ " " + '"472"' +"</br>"+"value Type is:"+" "+ typeof(value));
+var value = 470 ;
+document.write("</br>value Is :"+ " " + value +"</br>"+"value Type is:"+" "+ typeof(value));
+var input = prompt("Enter Any value to convert in uppercase");
+document.write("<h1>Q:10</br>"+"your input is:"+ input + "after changing is:" + " " + input.toUpperCase())
+var title = "javascript" ;
+document.write("<h1>Q:11</br>"+"String is:"+ title + "</br>after changing is:" + " " + title.slice(0,1).toUpperCase() + title.slice(1).toLowerCase());
+var num = "35.36" ;
+document.write("<h1>Q:12</br>" + "num is ===>" + " " + num + "</br>After removing dot is ===>" + " "+num.split("."));
+var special =prompt("Q:13\n Enter your name ' don't use @ , &'");
+for (i = 0 ; i < special.length ; i++){
+    if (special[i] === "@" || special[i] === "&"){
+        alert("Alert special character not allow!")
+    }
+    break;
+}
+var bakery =prompt("welcome to ABC Bakery:");
+var store = ["cake","apple pie","cookie","chips", "patties"] ;
+for(i= 0 ; i < store.length ; i++){
+    if (store[i] === bakery.toLowerCase()){
+        alert("your input is Available At index is:"+ ' ' + i)
+        break;
+    }
+    else if (store[i] === bakery.toLowerCase()){
+        alert("Sorry yours input is not Available yet")}
+}
+
+</script>
+</body>
+</html>
